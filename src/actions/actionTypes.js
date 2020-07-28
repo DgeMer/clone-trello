@@ -1,0 +1,21 @@
+export const CREATE_NEW_BOARD = 'CREATE_NEW_BOARD';
+export const CANCEL_CREATE_NED_BOARD = 'CANCEL_CREATE_NED_BOARD';
+
+export const STORE_NEW_BOARD = 'STORE_NEW_BOARD';
+export const GET_BOARD = 'GET_BOARD';
+export const DELETE_BOARD = 'DELETE_BOARD';
+export const SAVE_BOARD_IMG = 'SAVE_BOARD_IMG';
+export const DELETE_BOARD_IMG = 'DELETE_BOARD_IMG';
+
+
+export const GET_LISTS = 'GET_LISTS';
+export const DELETE_LIST = 'DELETE_LIST';
+export const CREATE_NEW_LIST = 'CREATE_NEW_LIST';
+export const CANCEL_CREATE_NEW_LIST = 'CANCEL_CREATE_NEW_LIST';
+export const STORE_NEW_LIST = 'STORE_NEW_LIST';
+export const REORDER_LISTS = 'REORDER_LISTS';
+
+export const STORE_NEW_ITEM = 'STORE_NEW_ITEM';
+export const TOGGLE_DONE_ITEM = 'TOGGLE_DONE_ITEM';
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const REORDER_ITEMS = 'REORDER_ITEMS';

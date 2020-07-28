@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.boardBg::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-color: rgba(1, 1, 1, 0.5);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.notFound {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cp {
+	cursor: pointer;
+}
+
+.itemIsDone {
+	text-decoration: line-through;
+}
+
+.card-body > .input-group > .input-group-append > .btn.btn-outline-secondary {
+	border-color: #ced4da;
+}
+
+.boardCard {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.boardCard > a {
+	text-decoration: none;
+}
+
+.text-shadow {
+	text-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
+}
+
+.boardListsGroup {
+	display: inline-flex;
+}
+
+.boardList {
+	user-select: none;
+	min-width: 245px;
+}
+
+.boardListsContainer {
+	min-height: calc(100vh - 180px);
+	display: flex;
+	overflow-x: auto;
+	flex-direction: row;
+	flex-flow: row;
+}
+
+.addList {
+	/*overlap bootstrap*/
+	min-width: 245px;
+	max-width: 245px;
+	height: fit-content;
+	margin-left: 15px;
+}
